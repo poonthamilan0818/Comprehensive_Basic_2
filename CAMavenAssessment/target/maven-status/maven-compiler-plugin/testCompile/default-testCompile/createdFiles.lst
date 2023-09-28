@@ -1,6 +1,6 @@
 org\uitest\HomePageObjects.class
-org\uitest\VerifyAutomationAnywhereWebSite.class
+org\readandwritetest\TestReadAndWriteTestInMaven.class
+org\uitest\TestVerifyAutomationAnywhereWebSite.class
 org\testNgTest\TestNgAssessment.class
-org\readandwritetest\ReadAndWriteTestInMaven.class
 org\utilities\BaseClass.class
 org\utilities\ReadAndWriteData.class

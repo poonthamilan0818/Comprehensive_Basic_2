@@ -16,7 +16,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.utilities.BaseClass;
 
-public class VerifyAutomationAnywhereWebSite extends BaseClass {
+public class TestVerifyAutomationAnywhereWebSite extends BaseClass {
 	private final String url = "https://www.automationanywhere.com/";
 	public HomePageObjects homePage = null;
 	WebDriver driver;
@@ -40,6 +40,8 @@ public class VerifyAutomationAnywhereWebSite extends BaseClass {
 				.presenceOfElementLocated(By.xpath("//div[@id = 'topNavbar']//a[text() = 'Request Demo']")));
 		assertTrue(homePage.getRequestDemoButton().isDisplayed());
 		assertTrue(homePage.getRequestDemoButton().isEnabled());
+		System.out.println("Logo validation completed");
+		System.out.println("------------------------------------------------------------------");
 	}
 
 	@Test
@@ -59,5 +61,7 @@ public class VerifyAutomationAnywhereWebSite extends BaseClass {
 		Assert.assertTrue(driver.getCurrentUrl().toLowerCase().contains("rpa/robotic-process-automation"));
 		homePage.getCompanyMenu().click();
 		Assert.assertTrue(driver.getCurrentUrl().toLowerCase().contains("company/about-us"));
+		System.out.println("Menu Validation Completed");
+		System.out.println("-------------------------------------------------------------------------------------");
 	}
 }

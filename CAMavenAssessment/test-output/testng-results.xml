@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-28T20:51:56 IST" name="Default suite" finished-at="2023-09-28T20:52:36 IST" duration-ms="40045">
+  <suite started-at="2023-09-28T17:58:01Z" name="Suite" finished-at="2023-09-28T17:58:01Z" duration-ms="904">
     <groups>
     </groups>
-    <test started-at="2023-09-28T20:51:56 IST" name="Default test" finished-at="2023-09-28T20:52:36 IST" duration-ms="40045">
-      <class name="org.uitest.VerifyAutomationAnywhereWebSite">
-        <test-method signature="verifyTopMenusPages()[pri:0, instance:org.uitest.VerifyAutomationAnywhereWebSite@4686afc2]" started-at="2023-09-28T20:51:56 IST" name="verifyTopMenusPages" finished-at="2023-09-28T20:52:35 IST" duration-ms="39560" status="PASS">
+    <test started-at="2023-09-28T17:58:01Z" name="Test" finished-at="2023-09-28T17:58:01Z" duration-ms="904">
+      <class name="org.readandwritetest.TestReadAndWriteTestInMaven">
+        <test-method signature="readDataFromExcel()[pri:0, instance:org.readandwritetest.TestReadAndWriteTestInMaven@1fa1cab1]" started-at="2023-09-28T17:58:01Z" name="readDataFromExcel" finished-at="2023-09-28T17:58:01Z" duration-ms="854" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopMenusPages -->
-        <test-method is-config="true" signature="oneTimeTearDown()[pri:0, instance:org.uitest.VerifyAutomationAnywhereWebSite@4686afc2]" started-at="2023-09-28T20:52:35 IST" name="oneTimeTearDown" finished-at="2023-09-28T20:52:36 IST" duration-ms="411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneTimeTearDown -->
-      </class> <!-- org.uitest.VerifyAutomationAnywhereWebSite -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- readDataFromExcel -->
+      </class> <!-- org.readandwritetest.TestReadAndWriteTestInMaven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -85,11 +85,14 @@
 						<artifactId>Maven-Surefire-Plugin</artifactId>
 						<version>2.18.1</version>
 						<configuration>
+							<properties>
+								<property>
+									<name>suitethreadpoolsize</name>
+									<value>3</value>
+								</property>
+							</properties>
 							<suiteXmlFiles>
-								<suiteXmlFile>testngassessent.xml</suiteXmlFile>
-								<suiteXmlFile>
-									testngreadandwritedatafromexcel.xml</suiteXmlFile>
-								<suiteXmlFile>testngverifyautomationanywhere.xml</suiteXmlFile>
+								<suiteXmlFile>testngsuite.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

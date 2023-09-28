@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium 4 POC Tests ">
+    <suite-files>
+        <suite-file path="testngassessent.xml"/>
+        <suite-file path="testngreadandwritedatafromexcel.xml"/>
+        <suite-file path="testngverifyautomationanywhere.xml"/>
+    </suite-files>
+</suite> 
