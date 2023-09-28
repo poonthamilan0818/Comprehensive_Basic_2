@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-28T19:03:18 IST" name="Suite" finished-at="2023-09-28T19:03:18 IST" duration-ms="93">
+    <groups>
+    </groups>
+    <test started-at="2023-09-28T19:03:18 IST" name="Test" finished-at="2023-09-28T19:03:18 IST" duration-ms="93">
+      <class name="org.automationanywhereTestNG.TestNgAssessment">
+        <test-method signature="findEachCharacterOccuranceInAString()[pri:0, instance:org.automationanywhereTestNG.TestNgAssessment@4efc180e]" started-at="2023-09-28T19:03:18 IST" name="findEachCharacterOccuranceInAString" finished-at="2023-09-28T19:03:18 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEachCharacterOccuranceInAString -->
+        <test-method signature="fineTheCharacterCasesInAString()[pri:0, instance:org.automationanywhereTestNG.TestNgAssessment@4efc180e]" started-at="2023-09-28T19:03:18 IST" name="fineTheCharacterCasesInAString" finished-at="2023-09-28T19:03:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fineTheCharacterCasesInAString -->
+        <test-method signature="sortTheArrayIntegers()[pri:1, instance:org.automationanywhereTestNG.TestNgAssessment@4efc180e]" started-at="2023-09-28T19:03:18 IST" name="sortTheArrayIntegers" finished-at="2023-09-28T19:03:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTheArrayIntegers -->
+      </class> <!-- org.automationanywhereTestNG.TestNgAssessment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

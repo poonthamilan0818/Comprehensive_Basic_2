@@ -1,0 +1,108 @@
+{
+	"id": "017666c6-3415-46c4-bc00-5488ac039a7d",
+	"name": "CA_Postman_assessment",
+	"timestamp": "2023-09-27T13:06:58.397Z",
+	"collection_id": "17978761-9bf7e445-7a1e-4e62-8c28-17d53dce2c3d",
+	"folder_id": 0,
+	"environment_id": "17978761-e03f9a45-9b8f-4f40-b16e-d66481b3a876",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-27T13:06:56.784Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0e222bd0-bdd4-424a-b894-6e633ea09b60",
+			"name": "Get_NameOfIndia",
+			"url": "https://restcountries.com/v3.1/name/India",
+			"time": 430,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validate response against saved 'name' value": true,
+				"Response content type is application/json": true,
+				"Validate Response status code": true
+			},
+			"testPassFailCounts": {
+				"Validate response against saved 'name' value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate Response status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				430
+			],
+			"allTests": [
+				{
+					"Validate response against saved 'name' value": true,
+					"Response content type is application/json": true,
+					"Validate Response status code": true
+				}
+			]
+		},
+		{
+			"id": "389f233f-62d3-4904-b6ed-449fa9c3b5ab",
+			"name": "POST_NameOfIndia",
+			"url": "https://restcountries.com/v3.1/name/India",
+			"time": 160,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Validate response against saved 'name' value": true,
+				"Response content type is application/json": true,
+				"Validate Response status code": true
+			},
+			"testPassFailCounts": {
+				"Validate response against saved 'name' value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate Response status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Validate response against saved 'name' value": true,
+					"Response content type is application/json": true,
+					"Validate Response status code": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 590,
+	"collection": {
+		"requests": [
+			{
+				"id": "0e222bd0-bdd4-424a-b894-6e633ea09b60",
+				"method": "GET"
+			},
+			{
+				"id": "389f233f-62d3-4904-b6ed-449fa9c3b5ab",
+				"method": "POST"
+			}
+		]
+	}
+}
