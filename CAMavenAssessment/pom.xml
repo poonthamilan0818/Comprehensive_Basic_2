@@ -16,7 +16,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
+			<version>6.14.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
@@ -77,7 +77,7 @@
 							<target>1.8</target>
 							<fork>true</fork>
 							<executable>C:\Program
-								Files\Java\jdk1.8.0_271\bin\javac</executable>
+								Files\Java\jdk1.8.0_201\bin\javac</executable>
 						</configuration>
 					</plugin>
 					<plugin>

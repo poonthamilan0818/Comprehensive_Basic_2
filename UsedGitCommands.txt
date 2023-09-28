@@ -1,0 +1,10 @@
+Used Git Command
+-------------------------
+git init
+git config --global user.name "usernme"
+git config --global user.email "email id"
+git remote add origin https://github.com/poonthamilan0818/Comprehensive_Basic_2.git
+git checkout main
+git add .
+git commit -m "Commiting all my comperhensive assessment"
+git push origin main
